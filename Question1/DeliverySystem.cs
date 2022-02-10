@@ -23,7 +23,7 @@ namespace ExercisesOOP_S2W4.Question1
                 }
                 else
                 {
-                    Console.WriteLine("Zip code not found.");
+                    Console.WriteLine("Sorry, Zip code not found.");
                     break;
                 }
             }
