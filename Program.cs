@@ -24,7 +24,6 @@ namespace ExercisesOOP_S2W4
                 case 3:
                     break;
             }
-            
         }
     }
 }
