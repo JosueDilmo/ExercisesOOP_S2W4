@@ -15,18 +15,13 @@ namespace ExercisesOOP_S2W4.Question1
             Console.Write("Please, insert your zip code (DXX): ");
             string userZipcode = Console.ReadLine();
             string[] deliveryZipCode = { "D01", "D02", "D03", "D04", "D05", "D06", "D07", "D08", "D09", "D10" };
-            for (int i = 0; i <= deliveryZipCode.Length; i++)
+            if (deliveryZipCode.Contains(userZipcode))
             {
-                if (deliveryZipCode.Contains(userZipcode))
-                {
-                    Console.WriteLine("Zip code found");
-                    break;
-                }
-                else
-                {
-                    Console.WriteLine("Zip code not found");
-                    break;
-                }
+                Console.WriteLine("Zip code found");
+            }
+            else
+            {
+                Console.WriteLine("Zip code not found");
             }
         }
     }
